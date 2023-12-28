@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #c5a7bb;
+    text-align: center;
+}
+
+h1{
+    margin-top: 2vmin;
+}
+.container{
+   /* border: 1px solid black; */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    /* border: 1px solid black; */
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow:0 0 1rem rgba(25, 23, 23, 0.6);
+    font-size: 10vmin;
+    color: brown;
+    background-color: antiquewhite;
+}
+
+.reset-game{
+    padding: 1rem;
+    height: 7vmin;
+    width: 15vmin;
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    font-size:2.5vmin ;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0 0 1rem rgba(25, 23, 23, 0.6) ;
+}
+
+.new-game{
+    padding: 1rem;
+    height: 7vmin;
+    width: 20vmin;
+    border-radius: 1.5rem;
+    justify-content: center;
+     align-items: center; 
+    background-color: rgb(61, 59, 55);
+    font-size:2.5vmin ;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0 0 1rem rgba(25, 23, 23, 0.6) ;
+    color: white;
+    margin-top: 1vmin;
+}
+.msg{
+    color: antiquewhite;
+    font-size: 6vmin;
+}
+.winner-msg{
+    height: 18vmin;
+}
+.hide{
+    display: none;
+}
